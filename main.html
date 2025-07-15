@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional tribute to cricket legend Virat Kohli - Internship Project">
+    <title>King Kohli | Tribute Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.icons8.com/color/48/cricket.png">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">King<span>Kohli</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="title">Virat Kohli</h1>
+            <h2 class="subtitle">The Run Machine</h2>
+            <div class="scroll-down">
+                <span></span>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop class="hero-video">
+            <source src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUvukVHOeioDmSUl1VSeKCb2pZBdvfxiPgjQ&s" type="video/mp4">
+        </video>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <h2>About <span>The King</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt="Virat Kohli" loading="lazy">
+                    <div class="image-caption">ICC Men's Cricket World Cup 2023</div>
+                </div>
+                <div class="about-text">
+                    <p>Virat Kohli (born 5 November 1988) is an Indian international cricketer and former captain of the Indian national team. Widely regarded as one of the greatest batsmen in the history of cricket, Kohli holds numerous records including being the fastest to score 8,000, 9,000, 10,000 and 11,000 runs in One Day Internationals.</p>
+                    <p>Known for his aggressive batting style and exceptional consistency, Kohli has been the recipient of many awards including the Sir Garfield Sobers Trophy (ICC Cricketer of the Year) in 2017 and 2018. He was ranked as one of the world's most famous athletes by ESPN in 2016 and named Time magazine's 100 most influential people in the world in 2018.</p>
+                    <div class="signature">
+                        <img src="https://i.ibb.co/0QyJQ7F/virat-signature.png" alt="Virat Kohli Signature">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section stats-section">
+            <div class="section-header">
+                <h2>Career <span>Statistics</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-number odi-stats" data-count="13848">0</div>
+                    <div class="stat-label">ODI Runs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="stat-number test-stats" data-count="8676">0</div>
+                    <div class="stat-label">Test Runs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number t20i-stats" data-count="4008">0</div>
+                    <div class="stat-label">T20I Runs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number centuries" data-count="80">0</div>
+                    <div class="stat-label">International Centuries</div>
+                </div>
+            </div>
+            
+            <div class="detailed-stats">
+                <h3>Format-wise Breakdown</h3>
+                <div class="stats-table-container">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>Format</th>
+                                <th>Matches</th>
+                                <th>Runs</th>
+                                <th>Average</th>
+                                <th>100s/50s</th>
+                                <th>HS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Test</td>
+                                <td>111</td>
+                                <td>8,676</td>
+                                <td>49.29</td>
+                                <td>29/29</td>
+                                <td>254*</td>
+                            </tr>
+                            <tr>
+                                <td>ODI</td>
+                                <td>292</td>
+                                <td>13,848</td>
+                                <td>58.67</td>
+                                <td>50/72</td>
+                                <td>183</td>
+                            </tr>
+                            <tr>
+                                <td>T20I</td>
+                                <td>115</td>
+                                <td>4,008</td>
+                                <td>52.73</td>
+                                <td>1/37</td>
+                                <td>122*</td>
+                            </tr>
+                            <tr>
+                                <td>IPL</td>
+                                <td>237</td>
+                                <td>7,263</td>
+                                <td>37.25</td>
+                                <td>7/50</td>
+                                <td>113</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="stats-source">Source: ESPNcricinfo (Updated July 2023)</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section achievements-section">
+            <div class="section-header">
+                <h2>Major <span>Achievements</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2008</div>
+                    <div class="timeline-content">
+                        <h3>International Debut</h3>
+                        <p>Made ODI debut against Sri Lanka and Test debut against West Indies</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2011</div>
+                    <div class="timeline-content">
+                        <h3>World Cup Winner</h3>
+                        <p>Played crucial role in India's World Cup victory, scoring 282 runs in the tournament</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2013</div>
+                    <div class="timeline-content">
+                        <h3>ICC ODI Player of the Year</h3>
+                        <p>First of many ICC awards recognizing his batting dominance</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016</div>
+                    <div class="timeline-content">
+                        <h3>Test Captaincy</h3>
+                        <p>Took over as full-time Test captain, leading India to #1 ranking</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>ICC Cricketer of the Year</h3>
+                        <p>Won Sir Garfield Sobers Trophy for second consecutive year</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>Fastest to 12,000 ODI Runs</h3>
+                        <p>Broke multiple batting records during this period</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>50 ODI Centuries</h3>
+                        <p>Surpassed Sachin Tendulkar's record of most ODI centuries</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="section-header">
+                <h2>Career <span>Gallery</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-105337387,width-600,resizemode-4/105337387.jpg" alt="Virat Kohli 2023 World Cup" loading="lazy">
+                    <div class="gallery-caption">2023 World Cup</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/AP23309444492856-1-1699187274.jpg?resize=1800%2C1200" alt="Virat Kohli Century Celebration" loading="lazy">
+                    <div class="gallery-caption">Century Celebration</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/AP23309444492856-1-1699187274.jpg?resize=1800%2C1200" alt="Virat Kohli 2018" loading="lazy">
+                    <div class="gallery-caption">2018 Tour</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmAoj0oh8yGcOtgcdVHaWsl_ykvTqfqjkfw&s" alt="Virat Kohli Batting" loading="lazy">
+                    <div class="gallery-caption">Batting Stance</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section quote-section">
+            <div class="quote-container">
+                <blockquote class="inspirational-quote">
+                    "I like to be myself, and I don't pretend. For instance, I don't dress up for occasions; I am what I am."
+                    <cite>Virat Kohli</cite>
+                </blockquote>
+                <div class="quote-icon">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About This Project</h3>
+                <p>This tribute page was created as part of a web development internship project to showcase skills in HTML, CSS, and JavaScript while honoring one of cricket's greatest players.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Virat</a></li>
+                    <li><a href="#stats">Career Stats</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Virat</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/virat.kohli/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/imVkohli" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/virat.kohli" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Virat Kohli Tribute Project | Created by <span>[Your Name]</span> for <span>[Internship Program]</span></p>
+            <div class="references">
+                <p>Data Sources: ESPNcricinfo, ICC, BCCI | Images: Cricket Australia, Getty Images</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
